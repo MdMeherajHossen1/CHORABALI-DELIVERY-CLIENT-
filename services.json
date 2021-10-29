@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Restaurant",
+        "desc": "Find deals, free delivery, and more from our restaurant partners",
+        "img": "https://i.ibb.co/938ZsSZ/restaurent-1.png"
+    },
+    {
+        "name": "Grocery",
+        "desc": "Don't stand in line-order Online! Choose from top stores delivering groceries to you.",
+        "img": "https://i.ibb.co/cwzcbp2/grocery.png"
+    },
+    {
+        "name": "Flowers",
+        "desc": "Show them you care. We're ready to deliver flowers and chocolates to your loved one.",
+        "img": "https://i.ibb.co/6yb8KBM/91231.png"
+    },
+    {
+        "name": "Pharmacy",
+        "desc": "Got the sniffkes? We've got you. Get Medicine delivered to you quickly and easily.",
+        "img": "https://i.ibb.co/sF2H5Y7/pharmacy.png"
+    },
+    {
+        "name": "Bauties",
+        "desc": "You have thousands of Beauties Shop. Just checkout the individual Shop and buy products",
+        "img": "https://i.ibb.co/x5H7hCN/bauties.png"
+    },
+    {
+        "name": "Electronics",
+        "desc": "Don't stand in line-order Online! Choose from top stores delivering Electrporics to you.",
+        "img": "https://i.ibb.co/rmCfpcH/eloctronic.png"
+    }
+]

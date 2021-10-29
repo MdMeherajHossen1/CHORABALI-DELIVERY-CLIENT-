@@ -1,7 +1,7 @@
 body {
   margin: 0;
-  font-family: 'Poppins', sans-serif;
-  /* font-family: 'Andada Pro', serif; */
+  /* font-family: 'Poppins', sans-serif !important; */
+  font-family: 'Andada Pro', serif !important;
 
 }
 
