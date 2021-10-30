@@ -19,7 +19,7 @@ const Restaurants = () => {
         <div>
             {loading ? (
                 <div className="p-5 ">
-                    <PuffLoader color="#4aa96c" size={100} />
+                    <PuffLoader color="#FF5A00" size={200} />
                 </div>
             ) : (<section className="container my-5">
                 <h1>100 + RESTAURANTS......</h1>

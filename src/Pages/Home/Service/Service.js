@@ -17,7 +17,7 @@ const Service = ({ event }) => {
                         <p> {desc}</p>
                         <p><small>Delivery Charge: {charge} BDT</small></p>
 
-                        <button className="btn rounded col-11 mx-auto text-white" style={{ background: "#FF5A00" }}>Make a delivery</button>
+                        <button className="btn rounded col-11 mx-auto text-white" style={{ background: "#FF5A00" }}> <i className="fas fa-shopping-cart me-2 "></i>Make a delivery</button>
 
                     </div>
 

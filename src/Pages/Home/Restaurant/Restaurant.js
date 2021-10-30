@@ -11,7 +11,7 @@ const Restaurant = ({ restaurant }) => {
                     <p className="card-text text-start  "> {desc}</p>
                 </div>
                 <div className="card-footer border-0 px-0 pb-0  ">
-                    <button className="btn rounded col-12  text-white" style={{ background: "#FF5A00" }}>Check out Here</button>
+                    <button className="btn rounded col-12  text-white" style={{ background: "#FF5A00" }}>Find out more</button>
                 </div>
             </div>
         </div>

@@ -9,9 +9,11 @@ const useFirebase = () => {
     // user data store
     const [user, setUser] = useState({})
     const [error, setError] = useState('')
+    const [loading, setLoading] = useState(true)
 
     // google Login btn
     const handleGoogleSignIn = () => {
+        setLoading(true)
         return signInWithPopup(auth, googleProvider)
 
 
@@ -36,13 +38,14 @@ const useFirebase = () => {
             else {
                 setUser({})
             }
+            setLoading(false)
         })
         return () => unSubscriber;
     }, [])
 
 
     return {
-        user, error, handleGoogleSignIn, handleSignOut
+        user, error, handleGoogleSignIn, handleSignOut, loading
     }
 }
 
