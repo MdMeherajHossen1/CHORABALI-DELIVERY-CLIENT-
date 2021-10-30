@@ -13,7 +13,7 @@ const Service = ({ event }) => {
                         <img src={img} style={{ width: "100%", height: "100%" }} className="rounded-start" alt="" />
                     </div>
                     <div className="col-6 col-md-7 text-start  pt-2">
-                        <h3> {name}</h3>
+                        <h3> <strong>{name}</strong> </h3>
                         <p> {desc}</p>
                         <p><small>Delivery Charge: {charge} BDT</small></p>
 

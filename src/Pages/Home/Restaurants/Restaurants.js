@@ -18,15 +18,15 @@ const Restaurants = () => {
     return (
         <div>
             {loading ? (
-                <div className="p-5 h-100 w-100">
-                    <PuffLoader color="#4aa96c" size={50} />
+                <div className="p-5 ">
+                    <PuffLoader color="#4aa96c" size={100} />
                 </div>
-            ) : (<section className="container my-4">
+            ) : (<section className="container my-5">
                 <h1>100 + RESTAURANTS......</h1>
 
                 <h5>Take your pick from our featured Restaurants in LAKSHMIPUR. Delivered faster to your door..</h5>
 
-                <Row xs={1} md={2} lg={3} className="g-0 mt-4   ">
+                <Row xs={1} md={2} lg={3} className="g-0 mt-5">
                     {restaurants?.map(restaurant => <Restaurant
                         key={restaurant._id}
                         restaurant={restaurant}

@@ -6,6 +6,7 @@ import Banner from "./Pages/Home/Banner/Banner";
 import Footer from "./Pages/Home/Footer/Footer";
 import Grocery from "./Pages/Home/Grocery/Grocery";
 import Header from "./Pages/Home/Header/Header";
+import JoinUS from "./Pages/Home/JoinUS/JoinUS";
 import Restaurants from "./Pages/Home/Restaurants/Restaurants";
 import Services from "./Pages/Home/Services/Services";
 import Login from "./Pages/Login/Login"
@@ -23,12 +24,14 @@ function App() {
               <Services></Services>
               <Restaurants></Restaurants>
               <Grocery></Grocery>
+              <JoinUS></JoinUS>
             </Route>
             <Route exact path="/home">
               <Banner></Banner>
               <Services></Services>
               <Restaurants></Restaurants>
               <Grocery></Grocery>
+              <JoinUS></JoinUS>
             </Route>
             <Route path="/login">
               <Login></Login>

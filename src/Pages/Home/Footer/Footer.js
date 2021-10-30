@@ -5,7 +5,7 @@ const Footer = () => {
         <div className="container-fluid py-3 text-white bg-dark">
             <div className="container">
                 <div className="row pt-2">
-                    <div className="d-flex justify-content-evenly border-bottom border-primary pb-3">
+                    <div className="d-flex flex-wrap justify-content-evenly border-bottom border-primary pb-3">
                         <h6>Feedback</h6>
                         <h6>Careers</h6>
                         <h6>Terms</h6>
