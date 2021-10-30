@@ -5,7 +5,7 @@ const Footer = () => {
         <div className="container-fluid py-3 text-white bg-dark">
             <div className="container">
                 <div className="row pt-2">
-                    <div className="d-flex justify-content-evenly border-bottom border-warning pb-3">
+                    <div className="d-flex justify-content-evenly border-bottom border-primary pb-3">
                         <h6>Feedback</h6>
                         <h6>Careers</h6>
                         <h6>Terms</h6>
@@ -20,8 +20,8 @@ const Footer = () => {
                 <div className="row text-start py-4 border-bottom border-primary">
                     <div className="col-9">
                         <div className="row">
-                            <div className="col-md-4 col-12">
-                                <h5 className="border-bottom  text-center">Restaurants</h5>
+                            <div className="col-md-4 col-12 border-start border-primary">
+                                <h5 className="text-center">Restaurants</h5>
                                 <p>Mohammadia hotel</p>
                                 <p>Madina cafe</p>
                                 <p>Samiha Hotel</p>
@@ -30,8 +30,8 @@ const Footer = () => {
                                 <p>Jumur hotel</p>
                             </div>
 
-                            <div className="col-md-4 col-12">
-                                <h5 className="border-bottom  text-center">Popular Cuisines</h5>
+                            <div className="col-md-4 col-12 border-start border-primary">
+                                <h5 className="text-center">Popular Cuisines</h5>
                                 <p>Breakfast</p>
                                 <p>Burgers</p>
                                 <p>Cafe</p>
@@ -39,8 +39,8 @@ const Footer = () => {
                                 <p>American</p>
                                 <p>hooks</p>
                             </div>
-                            <div className="col-md-4 col-12">
-                                <h5 className="border-bottom  text-center">Popular Areas</h5>
+                            <div className="col-md-4 col-12 border-start border-primary">
+                                <h5 className="text-center">Popular Areas</h5>
                                 <p>Chak Bazar</p>
                                 <p>Jumur</p>
                                 <p>Samad</p>
@@ -50,15 +50,15 @@ const Footer = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-3 border-start border-info">
+                    <div className="col-3 border-start border-primary">
                         <h5 className=" text-center">Follow us on</h5>
-                        <div class="buttons">
-                            <button class="button"><i class="fab fa-youtube" style={{ color: "rgb(248, 0, 0)" }}></i></button>
-                            <button class="button"> <i class="fab fa-facebook" style={{ color: "rgb(3, 38, 155)" }}></i></button>
-                            <button class="button"><i class="fab fa-instagram" style={{ color: "red" }}></i></button>
-                            <button class="button"><i class="fab fa-twitter" style={{ color: "rgb(32, 95, 121)" }}></i></button>
-                            <button class="button"><i class="fab fa-facebook-messenger" style={{ color: "purple" }}></i></button>
-                            <button class="button"><i class="fab fa-whatsapp" style={{ color: "darkgreen" }}></i></button>
+                        <div className="buttons">
+                            <button className="button"><i className="fab fa-youtube" style={{ color: "rgb(248, 0, 0)" }}></i></button>
+                            <button className="button"> <i className="fab fa-facebook" style={{ color: "rgb(3, 38, 155)" }}></i></button>
+                            <button className="button"><i className="fab fa-instagram" style={{ color: "red" }}></i></button>
+                            <button className="button"><i className="fab fa-twitter" style={{ color: "rgb(32, 95, 121)" }}></i></button>
+                            <button className="button"><i className="fab fa-facebook-messenger" style={{ color: "purple" }}></i></button>
+                            <button className="button"><i className="fab fa-whatsapp" style={{ color: "darkgreen" }}></i></button>
                         </div>
                     </div>
                 </div>

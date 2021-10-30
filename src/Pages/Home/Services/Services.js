@@ -17,12 +17,12 @@ const Services = () => {
     return (
         <div>
             {lodding ? (
-                <div className="p-5">
+                <div className="p-5 h-100 w-100">
                     <PuffLoader color="#4aa96c" size={50} />
                 </div>
             ) : (<section className="container my-4">
                 <h1>Your everyday, right away</h1>
-                
+
                 <p>Order food and grocery delivery online from hundreds of restaurants and shops nearby</p>
 
                 <Row xs={1} md={2} lg={2} className="g-4 mt-4   ">

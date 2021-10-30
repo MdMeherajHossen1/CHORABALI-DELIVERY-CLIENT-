@@ -1,32 +1,32 @@
 [
     {
-        "name": "Restaurant",
-        "desc": "Find deals, free delivery, and more from our restaurant partners",
-        "img": "https://i.ibb.co/938ZsSZ/restaurent-1.png"
+        "name": "Hat BAZAR",
+        "desc": "Hat Bazar is the frist grocery Shop in the city of lakshmipur and underrated.",
+        "img": "https: //i.ibb.co/6FfBD9C/g1.webp"
     },
     {
-        "name": "Grocery",
-        "desc": "Don't stand in line-order Online! Choose from top stores delivering groceries to you.",
-        "img": "https://i.ibb.co/cwzcbp2/grocery.png"
+        "name": "LAKSHMIPUR E BAZAR",
+        "desc": "An e-commerce company and well known hyper market in the lakshmipur city.",
+        "img": "https: //i.ibb.co/bHNLrYR/g2.webp"
     },
     {
-        "name": "Flowers",
-        "desc": "Show them you care. We're ready to deliver flowers and chocolates to your loved one.",
-        "img": "https://i.ibb.co/6yb8KBM/91231.png"
+        "name": "KARI D-STORE",
+        "desc": "Kari departmental store has all kind of grocery products as your need.",
+        "img": "https: //i.ibb.co/1vVd8X0/g3.webp"
     },
     {
-        "name": "Pharmacy",
-        "desc": "Got the sniffkes? We've got you. Get Medicine delivered to you quickly and easily.",
-        "img": "https://i.ibb.co/sF2H5Y7/pharmacy.png"
+        "name": "ALAMIN STORE",
+        "desc": "A grocery joint store in the city and wholeseller from begining.",
+        "img": "https: //i.ibb.co/TWTTbFP/g4.webp"
     },
     {
-        "name": "Bauties",
-        "desc": "You have thousands of Beauties Shop. Just checkout the individual Shop and buy products",
-        "img": "https://i.ibb.co/x5H7hCN/bauties.png"
+        "name": "SHOPNO EXPRESS",
+        "desc": "Shopno express is one of the leading grocery store in the city.",
+        "img": "https: //i.ibb.co/DG01fNz/g5.webp"
     },
     {
-        "name": "Electronics",
-        "desc": "Don't stand in line-order Online! Choose from top stores delivering Electrporics to you.",
-        "img": "https://i.ibb.co/rmCfpcH/eloctronic.png"
+        "name": "BIG BAZZAR D-STORE",
+        "desc": "Big Bazar departmental store is near collage road in lakshmipur.",
+        "img": "https: //i.ibb.co/hdq9QR4/g6.webp"
     }
 ]
