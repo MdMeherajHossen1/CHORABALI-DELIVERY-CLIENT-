@@ -32,9 +32,9 @@ const Services = () => {
                     <img src={'https://i.ibb.co/MD11wKg/huawei.png'} className="rounded" alt="" />
                 </div>
                 <Row xs={1} md={2} lg={2} className="g-4 mt-5">
-                    {services?.map(event => <Service
-                        key={event._id}
-                        event={event}
+                    {services?.map(service => <Service
+                        key={service._id}
+                        service={service}
                     ></Service>)}
                 </Row>
             </section>)}

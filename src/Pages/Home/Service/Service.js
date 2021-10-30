@@ -1,9 +1,12 @@
 import React from 'react';
 import { Col } from 'react-bootstrap';
-
-const Service = ({ event }) => {
-
-    const { name, img, desc, charge } = event;
+import { useHistory } from 'react-router'
+const Service = ({ service }) => {
+    const history = useHistory()
+    const { name, img, desc, charge, _id } = service;
+    const handleService = id => {
+        history.push(`/placeorder/${id}`)
+    }
     return (
         <div>
             <Col className="border rounded border-start-0 ">
@@ -17,7 +20,7 @@ const Service = ({ event }) => {
                         <p> {desc}</p>
                         <p><small>Delivery Charge: {charge} BDT</small></p>
 
-                        <button className="btn rounded col-11 mx-auto text-white" style={{ background: "#FF5A00" }}> <i className="fas fa-shopping-cart me-2 "></i>Make a delivery</button>
+                        <button onClick={() => handleService(_id)} className="btn rounded col-11 mx-auto text-white" style={{ background: "#FF5A00" }}> <i className="fas fa-shopping-cart me-2 "></i>Make a delivery</button>
 
                     </div>
 

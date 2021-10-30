@@ -4,7 +4,7 @@ import { useForm } from "react-hook-form";
 
 const CreateaNewService = () => {
     const [congrats, setCongrats] = useState('')
-    const { register, handleSubmit, reset, formState: { errors } } = useForm();
+    const { register, handleSubmit, reset } = useForm();
     const onSubmit = data => {
         fetch('https://serene-island-93451.herokuapp.com/services', {
             method: "POST",
