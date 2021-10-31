@@ -1,24 +1,30 @@
 
 import React, { useState } from 'react';
 import { useForm } from "react-hook-form";
+import useAuth from '../../Hooks/useAuth';
 
 const CreateaNewService = () => {
+    const { user } = useAuth()
     const [congrats, setCongrats] = useState('')
     const { register, handleSubmit, reset } = useForm();
     const onSubmit = data => {
-        fetch('https://serene-island-93451.herokuapp.com/services', {
-            method: "POST",
-            headers: { 'content-type': 'application/json' },
-            body: JSON.stringify(data)
-        })
-            .then(res => res.json())
-            .then(result => {
-                if (result.insertedId) {
-                    setCongrats(result.insertedId)
-                    alert('Successfully add to the Database')
-                    reset()
-                }
+        if (user?.email === 'joycomputers36@gmail.com') {
+            fetch('https://serene-island-93451.herokuapp.com/services', {
+                method: "POST",
+                headers: { 'content-type': 'application/json' },
+                body: JSON.stringify(data)
             })
+                .then(res => res.json())
+                .then(result => {
+                    if (result.insertedId) {
+                        setCongrats(result.insertedId)
+                        alert('Successfully add to the Database')
+                        reset()
+                    }
+                })
+        } else {
+            alert('Only Admin MEHERAJ MUHAMMAD can Add a new Service. plz Check out our service and Home page ')
+        }
     };
 
     return (

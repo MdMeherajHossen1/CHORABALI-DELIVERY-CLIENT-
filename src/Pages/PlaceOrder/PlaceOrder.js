@@ -50,7 +50,7 @@ const PlaceOrder = () => {
                     </form>
                 </div>
 
-                <div className="col-md-4     col-12 ">
+                <div className="col-md-4 col-12 ">
 
                     <Card style={{ width: '18rem' }}>
                         <Card.Img variant="top" src={service[0]?.img} />

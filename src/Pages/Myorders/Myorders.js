@@ -9,7 +9,7 @@ const Myorders = () => {
     const [loading, setLoading] = useState(true)
     const [deleted, setDeleted] = useState(null)
     useEffect(() => {
-        fetch(`http://localhost:5000/orders/${user?.email}`)
+        fetch(`https://serene-island-93451.herokuapp.com/orders/${user?.email}`)
             .then(res => res.json())
             .then(data => {
                 setServices(data)
@@ -20,7 +20,7 @@ const Myorders = () => {
     const handleCencelBtn = id => {
         const confirmMessage = window.confirm("Are you sure ? You want to delete?")
         if (confirmMessage) {
-            fetch(`http://localhost:5000/orders/${id}`, { method: "DELETE" })
+            fetch(`https://serene-island-93451.herokuapp.com/orders/${id}`, { method: "DELETE" })
                 .then(res => res.json())
                 .then(data => {
                     if (data.deletedCount > 0) {

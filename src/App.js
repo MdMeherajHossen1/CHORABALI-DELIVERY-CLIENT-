@@ -14,6 +14,7 @@ import Login from "./Pages/Login/Login"
 import PlaceOrder from "./Pages/PlaceOrder/PlaceOrder";
 import PrivateRoute from "./PrivateRoute/PrivateRoute"
 import Myorders from "./Pages/Myorders/Myorders"
+import NotFound from './Pages/NotFound/NotFound'
 function App() {
   return (
     <div className="App">
@@ -48,9 +49,11 @@ function App() {
               <CreateaNewService></CreateaNewService>
             </PrivateRoute>
             <PrivateRoute path="/myorders">
-             <Myorders></Myorders>
+              <Myorders></Myorders>
             </PrivateRoute>
-
+            <Route path="*">
+              <NotFound></NotFound>
+            </Route>
           </Switch>
           <Footer></Footer>
         </Router>

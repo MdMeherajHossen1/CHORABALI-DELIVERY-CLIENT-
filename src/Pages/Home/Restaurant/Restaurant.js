@@ -4,7 +4,7 @@ const Restaurant = ({ restaurant }) => {
     const { name, img, desc } = restaurant;
     return (
         <div>
-            <div className="card mx-auto mb-3" style={{ width: '19rem' }}>
+            <div className="card mx-auto mb-3" style={{ width: '22rem' }}>
                 <img src={img} className="card-img-top" alt="..." />
                 <div className="card-body ">
                     <h4 className="card-title"> <strong> {name}</strong></h4>

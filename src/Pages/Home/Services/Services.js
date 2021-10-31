@@ -26,10 +26,10 @@ const Services = () => {
                 <h1>Your everyday, right away</h1>
 
                 <p>Order food and grocery delivery online from hundreds of restaurants and shops nearby</p>
-                <div>
-                    <img src={'https://i.ibb.co/8YpYR8L/applestore.png'} className="rounded me-2 mb-2" alt="" />
-                    <img src={'https://i.ibb.co/fxSVWsR/googleplay.png'} className="rounded me-2 mb-2" alt="" />
-                    <img src={'https://i.ibb.co/MD11wKg/huawei.png'} className="rounded mb-2" alt="" />
+                <div className="row justify-content-center">
+                    <div className=" col-md-2 col-3"> <img src={'https://i.ibb.co/8YpYR8L/applestore.png'} className=" img-fluid rounded " alt="" /></div>
+                    <div className="col-md-2 col-3"> <img src={'https://i.ibb.co/fxSVWsR/googleplay.png'} className=" img-fluid rounded " alt="" /></div>
+                    <div className="col-md-2 col-3"><img src={'https://i.ibb.co/MD11wKg/huawei.png'} className=" img-fluid rounded " alt="" /></div>
                 </div>
                 <Row xs={1} md={2} lg={2} className="g-4 mt-5">
                     {services?.map(service => <Service

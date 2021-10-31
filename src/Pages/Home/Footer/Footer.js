@@ -18,13 +18,13 @@ const Footer = () => {
                 </div>
 
                 <div className="row text-start py-4 border-bottom border-primary">
-                    <div className="col-9">
+                    <div className="col-md-9 col-8">
                         <div className="row">
                             <div className="col-md-4 col-12 border-start border-primary">
                                 <h5 className="text-center">Restaurants</h5>
                                 <p>Mohammadia hotel</p>
-                                <p>Madina cafe</p>
-                                <p>Samiha Hotel</p>
+                                <p>Kafilatoly Hotel and Restrurant</p>
+                                <p>Torabgong restaurant</p>
                                 <p>Razmohal restaurant</p>
                                 <p>One minite cafe</p>
                                 <p>Jumur hotel</p>
@@ -50,7 +50,7 @@ const Footer = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-3 border-start border-primary">
+                    <div className=" col-md-3 col-4 border-start border-primary">
                         <h5 className=" text-center">Follow us on</h5>
                         <div className="buttons">
                             <button className="button"><i className="fab fa-youtube" style={{ color: "rgb(248, 0, 0)" }}></i></button>
