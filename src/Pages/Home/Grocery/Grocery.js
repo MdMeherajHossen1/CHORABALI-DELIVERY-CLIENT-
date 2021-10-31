@@ -7,10 +7,11 @@ import Restaurant from '../Restaurant/Restaurant';
 const Grocery = () => {
     const [grocery, setGrocery] = useState([])
     const [loading, setLoading] = useState(true)
+
     useEffect(() => {
         fetch('https://serene-island-93451.herokuapp.com/grocery').then(res => res.json())
             .then(data => {
-                console.log(data)
+
                 setGrocery(data)
                 setLoading(false)
             })

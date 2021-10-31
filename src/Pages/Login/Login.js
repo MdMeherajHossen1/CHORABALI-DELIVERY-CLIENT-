@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useLocation, useHistory } from 'react-router-dom';
 import useAuth from '../../Hooks/useAuth';
 const Login = () => {
     const { handleGoogleSignIn } = useAuth();
+    const [error, setError] = useState('')
     const location = useLocation()
     const history = useHistory()
     const redirect_uri = location.state?.from || '/home';
@@ -11,12 +12,16 @@ const Login = () => {
             .then(result => {
                 history.push(redirect_uri)
             })
+            .catch(error => {
+                setError(error.message)
+            })
     }
     return (
         <div className="container">
             <div className="row g-4">
                 <div className="col-md-6 col-11">
                     <form className="p-5 pb-2">
+                        {error && <p> <small>{error}</small></p>}
                         <h2>Please Login    </h2>
                         <input type="text" className="form-control d-block mb-3" placeholder="Write your Email" />
                         <input type="text" className="form-control d-block mb-3" placeholder="Write your password" />

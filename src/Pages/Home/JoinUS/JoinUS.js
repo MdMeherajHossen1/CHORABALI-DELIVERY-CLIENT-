@@ -17,7 +17,7 @@ const JoinUS = () => {
                                 <div class="card-body">
                                     <h4 class="card-title">Become a partner</h4>
                                     <p class="card-text">Reach more customers and achieve growth with us</p>
-                                    <button className="btn rounded text-white" style={{ background: "#FF5A00" }}>Find out more</button>
+                                    <button className="btn rounded text-white col-10 " style={{ background: "#FF5A00" }}>Find out more</button>
                                 </div>
                             </div>
                         </div>
@@ -28,13 +28,13 @@ const JoinUS = () => {
                     <div class="card mb-3" >
                         <div class="row g-0">
                             <div class="col-md-4 col-5">
-                                <img src={'https://i.ibb.co/NYtw2KN/job.png'} class="img-fluid rounded-start" alt="..." />
+                                <img src={'https://i.ibb.co/NYtw2KN/job.png'} class="img-fluid rounded-start h-100" alt="..." />
                             </div>
                             <div class="col-md-8 col-5">
                                 <div class="card-body">
                                     <h4 class="card-title">Build your career</h4>
                                     <p class="card-text">Join the dynamic team that makes it all happen</p>
-                                    <button className="btn rounded text-white" style={{ background: "#FF5A00" }}>Find out more</button>
+                                    <button className="btn rounded text-white col-10" style={{ background: "#FF5A00" }}>Find out more</button>
                                 </div>
                             </div>
                         </div>

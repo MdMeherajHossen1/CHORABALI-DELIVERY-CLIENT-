@@ -19,7 +19,7 @@ const Header = () => {
                         <Nav className="ms-auto pe-3  ">
                             <Nav.Link as={Link} to="/home">Home</Nav.Link>
 
-                            {user.displayName && <Nav.Link as={Link} to="/orders">My orders</Nav.Link>}
+                            {user.displayName && <Nav.Link as={Link} to="/myorders">My orders</Nav.Link>}
                             {user.displayName && <Nav.Link as={Link} to="/allorders">Manage all orders</Nav.Link>}
                             {user.displayName && <Nav.Link as={Link} to="/addservices">Add a new service</Nav.Link>}
 

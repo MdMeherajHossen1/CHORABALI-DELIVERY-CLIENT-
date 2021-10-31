@@ -9,13 +9,13 @@ const Service = ({ service }) => {
     }
     return (
         <div>
-            <Col className="border rounded border-start-0 ">
-                <div className="row " style={{ height: "14rem" }} >
+            <Col className="border rounded border-start-0 mb-3">
+                <div className="row "  >
 
-                    <div className="col-6 col-md-5">
+                    <div className="col-5 col-md-5 ">
                         <img src={img} style={{ width: "100%", height: "100%" }} className="rounded-start" alt="" />
                     </div>
-                    <div className="col-6 col-md-7 text-start  pt-2">
+                    <div className="col-7 col-md-7 text-start p-2">
                         <h3> <strong>{name}</strong> </h3>
                         <p> {desc}</p>
                         <p><small>Delivery Charge: {charge} BDT</small></p>

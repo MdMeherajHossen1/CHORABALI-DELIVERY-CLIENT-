@@ -13,6 +13,7 @@ import Services from "./Pages/Home/Services/Services";
 import Login from "./Pages/Login/Login"
 import PlaceOrder from "./Pages/PlaceOrder/PlaceOrder";
 import PrivateRoute from "./PrivateRoute/PrivateRoute"
+import Myorders from "./Pages/Myorders/Myorders"
 function App() {
   return (
     <div className="App">
@@ -46,6 +47,10 @@ function App() {
             <PrivateRoute path="/addservices">
               <CreateaNewService></CreateaNewService>
             </PrivateRoute>
+            <PrivateRoute path="/myorders">
+             <Myorders></Myorders>
+            </PrivateRoute>
+
           </Switch>
           <Footer></Footer>
         </Router>
